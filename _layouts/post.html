@@ -1,0 +1,11 @@
+---
+layout: default
+---
+
+<a href='{{ site.baseurl }}'>&larr;</a>
+
+<article>
+  <h1><a href='{{ page.url }}/'>{{ page.title }}</a></h1>
+  <time>{{ page.date | date: '%B %-d, %Y' }}</time>
+  {{ content }}
+</article>
