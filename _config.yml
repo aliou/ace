@@ -1,0 +1,15 @@
+markdown:    redcarpet
+highlighter: pygments
+
+permalink: /posts/:title
+relative_permalinks: true
+
+title: Aliou Diallo
+url: http://blog.aliou.me
+baseurl: /
+description: Aliou Diallo's personal blog.
+
+paginate: 5
+paginate_path: '/:num'
+
+exclude: [Gemfile, Gemfile.lock, gulpfile.js, package.json, node_modules]
