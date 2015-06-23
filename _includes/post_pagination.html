@@ -1,0 +1,13 @@
+<footer>
+  {% if page.previous.url %}
+    <a href="{{ page.previous.url }}/">&laquo;&nbsp;Previous</a>
+  {% else %}
+    <span>&laquo;&nbsp;Previous</span>
+  {% endif %}
+
+  {% if page.next.url %}
+    <a href="{{ page.next.url }}/">Next&nbsp;&raquo;</a>
+  {% else %}
+    <span>Next&nbsp;&raquo;</span>
+  {% endif %}
+</footer>
