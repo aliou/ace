@@ -2,9 +2,9 @@
 layout: default
 ---
 
-<article>
-  <h1><a href='{{ page.url }}/'>{{ page.title }}</a></h1>
-  <time>{{ page.date | date: '%B %-d, %Y' }}</time>
+<article class='justify'>
+  <h2 class='h3 mb1'><a href='{{ page.url }}/'>{{ page.title }}</a></h2>
+  <time class='gray'>{{ page.date | date: '%B %-d, %Y' }}</time>
   {{ content }}
 </article>
 
