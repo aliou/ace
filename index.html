@@ -5,7 +5,6 @@ title: Home
 
 {% for post in paginator.posts %}
   <article class='justify'>
-
     {% if post.link %}
       <h2 class='h3 mb1'><a href='{{ post.link }}'>{{ post.title }} &rarr;</a></h2>
     {% else %}
@@ -14,7 +13,7 @@ title: Home
     {% endif %}
 
     {% if post.summary %}
-      {{ post.summary }}
+      {{ post.summary | markdownify }}
     {% else %}
       {{ post.content }}
     {% endif %}
