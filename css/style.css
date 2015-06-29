@@ -21,6 +21,10 @@ blockquote {
   color: #888;
 }
 
+blockquote p {
+  font-style: initial;
+}
+
 a {
   color: #005eb0;
 }
