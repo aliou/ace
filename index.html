@@ -6,10 +6,12 @@ title: Home
 {% for post in paginator.posts %}
   <article class='justify'>
     {% if post.link %}
-      <h2 class='h3 mb1'><a href='{{ post.link }}'>{{ post.title }} &rarr;</a></h2>
+      <h2 class='h3'><a href='{{ post.link }}'>{{ post.title }} &rarr;</a></h2>
     {% else %}
-      <h2 class='h3 mb1'><a href='{{ post.url }}/'>{{ post.title }}</a></h2>
-      <time class='gray'>{{ post.date | date: '%B %-d, %Y' }}</time>
+      <div class='mb2'>
+        <h2 class='h3 m0'><a href='{{ post.url }}/'>{{ post.title }}</a></h2>
+        <time class='gray'>{{ post.date | date: '%B %-d, %Y' }}</time>
+      </div>
     {% endif %}
 
     {% if post.summary %}
