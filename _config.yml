@@ -1,7 +1,7 @@
 markdown:    redcarpet
 highlighter: pygments
 
-permalink: /posts/:title
+permalink: /posts/:year/:month/:title
 relative_permalinks: true
 
 title: Aliou Diallo
