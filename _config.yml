@@ -4,10 +4,10 @@ highlighter: pygments
 permalink: /posts/:year/:month/:title
 relative_permalinks: true
 
-title: Aliou Diallo
-url: http://blog.aliou.me
+title: Ace
+url: http://aliou.github.io/ace
 baseurl: /
-description: Aliou Diallo's personal blog.
+description: Ace, a Jekyll theme.
 
 paginate: 5
 paginate_path: '/:num'
