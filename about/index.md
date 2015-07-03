@@ -18,4 +18,4 @@ or [contributing][pr].
 [gh]: https://github.com/aliou/ace
 [license]: https://github.com/aliou/ace/blob/004e284e4357b884aadf88f617459c81ab06bb6c/LICENSE
 [issue]: https://github.com/aliou/ace/issues/new
-[pr]: https://github.com/aliou/ace/compare
+[pr]: https://github.com/aliou/ace/fork
