@@ -1,7 +1,9 @@
 ---
 layout: post
 title: Example content
-summary: 'This is an example blog post that shows several types of HTML content supported in this theme.'
+summary:
+  This is the summary of an example blog post that shows several types of HTML content supported in this theme.
+  You can see the full post by clicking on the post title.
 ---
 
 
@@ -114,7 +116,3 @@ Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, conse
 </table>
 
 Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.
-
------
-
-Want to see something else added? <a href="https://github.com/poole/poole/issues/new">Open an issue.</a>

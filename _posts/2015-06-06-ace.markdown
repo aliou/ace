@@ -1,0 +1,6 @@
+---
+layout: post
+title:  "Ace"
+---
+
+This is Ace, a theme for [Jekyll](http://jekyllrb.com).
