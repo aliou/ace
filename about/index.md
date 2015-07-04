@@ -6,16 +6,14 @@ with_header: true
 
 # About Ace
 
-Ace is a [Jekyll][jk] theme created by [Aliou Diallo][ad]. It is mostly mean as
-a starting point, rather than a ready-to-go theme.
+Ace is a <a href='http://jekyllrb.com/' target='_blank'>Jekyll</a> theme created by
+<a href='http://aliou.me' target='_blank'>Aliou Diallo</a>.
+It is mostly mean as a starting point, rather than a ready-to-go theme.
+It uses <a href='http://www.basscss.com/' target='_blank'>Basscss</a>
+with some <a href='https://github.com/aliou/ace/blob/master/css/style.css' target='_blank'>minor tweaks</a>.
 
-You can download it on [GitHub][gh]. It is free, and [open source][license]. You
-can also improve it by [requesting a feature][issue], [reporting a bug][issue]
-or [contributing][pr].
-
-[jk]: http://jekyllrb.com/
-[ad]: http://aliou.me
-[gh]: https://github.com/aliou/ace
-[license]: https://github.com/aliou/ace/blob/004e284e4357b884aadf88f617459c81ab06bb6c/LICENSE
-[issue]: https://github.com/aliou/ace/issues/new
-[pr]: https://github.com/aliou/ace/fork
+You can download it on <a href='https://github.com/aliou/ace' target='_blank'>GitHub</a>.
+It is free, and <a href='https://github.com/aliou/ace/blob/v1/LICENSE' target='_blank'>open source</a>.
+You can also improve it by <a href='https://github.com/aliou/ace/issues/new' target='_blank'>requesting a feature</a>,
+<a href='https://github.com/aliou/ace/issues/new' target='_blank'>reporting a bug</a>
+or <a href='https://github.com/aliou/ace/fork' target='_blank'>contributing</a>.
