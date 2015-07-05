@@ -6,7 +6,7 @@ with_header: true
 
 {% for post in site.posts %}
   <article class='mb2'>
-    <h2 class='h3 m0'><a href='{{ post.url }}/'>{{ post.title }}</a></h2>
+    <h2 class='h3 m0'><a href='{{ site.baseurl }}{{ post.url }}/'>{{ post.title }}</a></h2>
     <time class='gray'>{{ post.date | date: '%B %-d, %Y' }}</time>
   </article>
 {% endfor %}

@@ -6,7 +6,7 @@ relative_permalinks: true
 
 title: Ace
 url: http://aliou.github.io/ace
-baseurl: /
+# baseurl: /
 description: Ace, a Jekyll theme.
 
 paginate: 5

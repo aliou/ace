@@ -2,11 +2,11 @@
 layout: default
 ---
 
-<a href='{{ site.baseurl }}'>&larr; Posts</a>
+<a href='{{ site.baseurl }}/'>&larr; Posts</a>
 
 <article class='justify'>
   <div class='mb2'>
-    <h2 class='h3 mb0'><a href='{{ page.url }}/'>{{ page.title }}</a></h2>
+    <h2 class='h3 mb0'><a href='{{ site.baseurl }}{{ page.url }}/'>{{ page.title }}</a></h2>
     <time class='gray'>{{ page.date | date: '%B %-d, %Y' }}</time>
   </div>
   {{ content }}

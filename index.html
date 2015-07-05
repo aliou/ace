@@ -10,7 +10,8 @@ with_header: true
       <h2 class='h3'><a href='{{ post.link }}'>{{ post.title }} &rarr;</a></h2>
     {% else %}
       <div class='mb2'>
-        <h2 class='h3 m0'><a href='{{ post.url }}/'>{{ post.title }}</a></h2>
+        <!-- {{ post.url }} -->
+        <h2 class='h3 m0'><a href='{{ site.baseurl }}{{ post.url }}/'>{{ post.title }}</a></h2>
         <time class='gray'>{{ post.date | date: '%B %-d, %Y' }}</time>
       </div>
     {% endif %}
