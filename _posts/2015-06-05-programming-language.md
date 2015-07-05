@@ -2,7 +2,7 @@
 layout: link
 type: link
 link: http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/
-title: What is Code
+title: Link post
 categories:
 - links
 ---
