@@ -1,13 +1,13 @@
 <footer class='py4'>
   {% if page.previous.url %}
-    <a href="{{ page.previous.url }}/">&laquo;&nbsp;Previous</a>
+    <a class='h2' href="{{ page.previous.url }}/">&larr;</a>
   {% else %}
-    <span>&laquo;&nbsp;Previous</span>
+    <span class='h2'>&larr;</span>
   {% endif %}
 
   {% if page.next.url %}
-    <a href="{{ page.next.url }}/">Next&nbsp;&raquo;</a>
+    <a class='h2' href="{{ page.next.url }}/">&rarr;</a>
   {% else %}
-    <span>Next&nbsp;&raquo;</span>
+    <span class='h2'>&rarr;</span>
   {% endif %}
 </footer>

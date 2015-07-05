@@ -9,7 +9,7 @@ url: http://aliou.github.io/ace
 baseurl: /
 description: Ace, a Jekyll theme.
 
-paginate: 5
+paginate: 3
 paginate_path: '/:num'
 
 exclude: [Gemfile, Gemfile.lock, gulpfile.js, package.json, node_modules, css]

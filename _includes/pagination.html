@@ -1,2 +1,17 @@
-<footer>
+<footer class='py4'>
+  {% if paginator.next_page %}
+    <a class='h2' href="/{{ paginator.next_page }}/">&larr;</a>
+  {% else %}
+    <span class='h2'>&larr;</span>
+  {% endif %}
+
+  {% if paginator.previous_page %}
+    {% if paginator.page == 2 %}
+      <a class='h2' href="/">&rarr;</a>
+    {% else %}
+      <a class='h2' href="/{{ paginator.previous_page }}/">&rarr;</a>
+    {% endif %}
+  {% else %}
+    <span class='h2'>&rarr;</span>
+  {% endif %}
 </footer>
