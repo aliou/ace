@@ -17,6 +17,7 @@ with_header: true
 
     {% if post.summary %}
       {{ post.summary | markdownify }}
+      <a href='{{ site.baseurl }}{{ post.url }}/'>Continue reading &rarr;</a>
     {% else %}
       {{ post.content }}
     {% endif %}
