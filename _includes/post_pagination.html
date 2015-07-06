@@ -1,12 +1,12 @@
 <footer class='py4'>
   {% if page.previous.url %}
-    <a class='h2' href="{{ site.baseurl }}/{{ page.previous.url }}/">&larr;</a>
+    <a class='h2' href="{{ site.baseurl }}{{ page.previous.url }}/">&larr;</a>
   {% else %}
     <span class='h2'>&larr;</span>
   {% endif %}
 
   {% if page.next.url %}
-    <a class='h2' href="{{ site.baseurl }}/{{ page.next.url }}/">&rarr;</a>
+    <a class='h2' href="{{ site.baseurl }}{{ page.next.url }}/">&rarr;</a>
   {% else %}
     <span class='h2'>&rarr;</span>
   {% endif %}
