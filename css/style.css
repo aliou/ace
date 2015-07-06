@@ -28,3 +28,14 @@ blockquote p {
 a {
   color: #005eb0;
 }
+
+@media (max-width: 52em) {
+  .sm-px2 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .sm-ml2 {
+    margin-left: 1rem;
+  }
+}
