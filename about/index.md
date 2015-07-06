@@ -13,7 +13,7 @@ It uses <a href='http://www.basscss.com/' target='_blank'>Basscss</a>
 with some <a href='https://github.com/aliou/ace/blob/master/css/style.css' target='_blank'>minor tweaks</a>.
 
 You can download it on <a href='https://github.com/aliou/ace' target='_blank'>GitHub</a>.
-It is free, and <a href='https://github.com/aliou/ace/blob/v1/LICENSE' target='_blank'>open source</a>.
+It is free, and <a href='https://github.com/aliou/ace/blob/master/LICENSE' target='_blank'>open source</a>.
 You can also improve it by <a href='https://github.com/aliou/ace/issues/new' target='_blank'>requesting a feature</a>,
 <a href='https://github.com/aliou/ace/issues/new' target='_blank'>reporting a bug</a>
 or <a href='https://github.com/aliou/ace/fork' target='_blank'>contributing</a>.
