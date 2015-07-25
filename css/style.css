@@ -18,7 +18,7 @@ img {
 
 blockquote {
   border-left: 1px solid #ddd;
-  color: #888;
+  color: #767676;
 }
 
 blockquote p {
@@ -38,4 +38,8 @@ a {
   .sm-ml2 {
     margin-left: 1rem;
   }
+}
+
+.grayish {
+  color: #767676;
 }
