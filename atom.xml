@@ -24,7 +24,15 @@ layout: null
    {% endif %}
    <updated>{{ post.date | date_to_xmlschema }}</updated>
    <id>{{ site.url }}{{ post.id }}</id>
-   <content type="html">{{ post.content | xml_escape }}</content>
+   <content type="html">
+     {{ post.content | xml_escape }}
+     {% if post.type == 'link' %}
+       {% capture link %}
+         [<a href='{{ post.link }}'>Read on {{ site.title }}</a>]
+       {% endcapture %}
+       {{ link | xml_escape }}
+     {% endif %}
+   </content>
  </entry>
  {% endfor %}
 
