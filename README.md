@@ -2,7 +2,7 @@
 
 A [Jekyll][jekyll] theme.
 
-![Ace](http://i.imgur.com/loQVgmP.png)
+![Ace](http://i.imgur.com/zXhwaou.png)
 
 ## Installation
 
