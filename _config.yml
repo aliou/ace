@@ -13,3 +13,10 @@ paginate: 5
 paginate_path: '/:num'
 
 exclude: [Gemfile, Gemfile.lock, gulpfile.js, package.json, node_modules, css]
+
+footer:
+  - description: true
+  - social:
+    - twitter: aliouftw
+    - github: aliou
+    - rss: true
