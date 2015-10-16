@@ -12,4 +12,4 @@ description: Ace, a Jekyll theme.
 paginate: 5
 paginate_path: '/:num'
 
-exclude: [Gemfile, Gemfile.lock, gulpfile.js, package.json, node_modules, css]
+exclude: [Gemfile, Gemfile.lock, gulpfile.js, package.json, node_modules, css, scripts]

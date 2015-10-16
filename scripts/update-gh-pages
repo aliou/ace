@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Update the gh-pages branch with the latest changes of the theme.
+
+git checkout gh-pages
+git rebase master
+git push -f origin gh-pages
+git checkout -
