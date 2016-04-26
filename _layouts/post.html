@@ -10,6 +10,8 @@ layout: default
     <time class='grayish'>{{ page.date | date: '%B %-d, %Y' }}</time>
   </div>
   {{ content }}
+
+  {% include medium-crosspost.html url=page.medium_url%}
 </article>
 
 {% include post_pagination.html %}

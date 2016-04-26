@@ -21,6 +21,8 @@ with_header: true
     {% else %}
       {{ post.content }}
     {% endif %}
+
+    {% include medium-crosspost.html url=post.medium_url %}
   </article>
 
   <hr class='half-width'/>
