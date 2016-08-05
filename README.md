@@ -1,17 +1,29 @@
 ## Ace
 
-A [Jekyll][jekyll] theme.
+A [Jekyll][jekyll] theme (3.2+), using the [official Jekyll theme implementation][theme-docs].
 
 ![Ace](http://i.imgur.com/tkqOjFt.png)
 
 ## Installation
 
-- Install Jekyll: `gem install jekyll`
-- [Fork this repository][fork]
-- Clone it: `git clone https://github.com/YOUR-USER/ace`
-- Run the Jekyll server: `jekyll serve -w`
+1. Install Jekyll: `gem install jekyll`
+2. Install Ace: `gem install ace-theme`
+3. Add the theme to your configuration:
 
-You should have a server up and running locally at http://localhost:4000.
+```yaml
+theme: ace-theme
+```
+
+4. Import the theme in your main css file:
+```scss
+// At the bottom of your file:
+@import "ace";
+```
+5. Finally, run the server and see your changes:
+```sh
+jekyll serve
+```
+You should have a server up and running locally at <http://localhost:4000>.
 
 ## Customization
 
@@ -20,3 +32,4 @@ That's where you will put the name, the URL and the description of your blog and
 
 [jekyll]: http://jekyllrb.com/
 [fork]: https://github.com/aliou/ace/fork
+[theme-docs]: https://jekyllrb.com/docs/themes/
