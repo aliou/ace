@@ -1,0 +1,31 @@
+---
+layout: default
+title: Home
+with_header: true
+---
+
+{% for post in paginator.posts %}
+  <article class='justify'>
+    {% if post.link %}
+      <h2 class='h3'><a href='{{ post.link }}'>{{ post.title }} &rarr;</a></h2>
+    {% else %}
+      <div class='mb2'>
+        <h2 class='m0'><a href='{{ site.baseurl }}{{ post.url }}/'>{{ post.title }}</a></h2>
+        <time class='grayish'>{{ post.date | date: '%B %-d, %Y' }}</time>
+      </div>
+    {% endif %}
+
+    {% if post.summary %}
+      {{ post.summary | markdownify }}
+      <a href='{{ site.baseurl }}{{ post.url }}/'>Continue reading &rarr;</a>
+    {% else %}
+      {{ post.content }}
+    {% endif %}
+
+    {% include medium-crosspost.html url=post.medium_url %}
+  </article>
+
+  <hr class='half-width'/>
+{% endfor %}
+
+{% include pagination.html %}
