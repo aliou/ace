@@ -9,17 +9,21 @@ A [Jekyll][jekyll] theme (3.2+), using the [official Jekyll theme implementation
 1. Install Jekyll: `gem install jekyll`
 2. Install Ace: `gem install ace-theme`
 3. Add the theme to your configuration:
-
 ```yaml
 theme: ace-theme
 ```
-
-4. Import the theme in your main css file:
+4. Enable pagination in your configuration:
+```yaml
+gems: [jekyll-paginate]
+paginate: 5
+paginate_path: '/:num'
+```
+5. Import the theme in your main css file:
 ```scss
 // At the bottom of your file:
 @import "ace";
 ```
-5. Finally, run the server and see your changes:
+6. Finally, run the server and see your changes:
 ```sh
 jekyll serve
 ```
