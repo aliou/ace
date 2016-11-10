@@ -2,7 +2,7 @@
 
 A [Jekyll][jekyll] theme (3.2+), using the [official Jekyll theme implementation][theme-docs].
 
-![Ace](http://i.imgur.com/tkqOjFt.png)
+![Ace](screenshot.png)
 
 ## Installation
 
